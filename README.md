@@ -1,6 +1,6 @@
-# 🚗 Smart Parking Lot Management (C++)
+#  Smart Parking Lot Management (C++)
 
-# 📌 Overview
+# Overview
 
 The Smart Parking Lot Management System is a C++ program that manages the entry and exit of cars in a parking lot.
 It uses a Linked List to store details of currently parked cars, allowing efficient insertions and deletions.
@@ -8,19 +8,19 @@ The program also ensures that the lot cannot exceed its maximum capacity, demons
 
 This project is a practical application of data structures and shows how they can be used in real-world systems.
 
-# 🚀 Features
+#  Features
 
-🅿️ Park a Car → Add car details (license number, owner name, entry time)
+ Park a Car → Add car details (license number, owner name, entry time)
 
-🚘 Exit a Car → Remove a car from the parking lot using license number
+ Exit a Car → Remove a car from the parking lot using license number
 
-📄 Display Parked Cars → View the list of all cars currently parked
+ Display Parked Cars → View the list of all cars currently parked
 
-⚠️ Overflow Handling → Prevents parking if the lot is already full
+ Overflow Handling → Prevents parking if the lot is already full
 
-🔗 Dynamic Memory Management → Cars are stored in memory only when parked
+ Dynamic Memory Management → Cars are stored in memory only when parked
 
-# 🏗️ Data Structures Used
+#  Data Structures Used
 
 Struct (Car) → To store details of each car (license, owner, entryTime)
 
@@ -31,7 +31,7 @@ Dynamic Memory Allocation (new / delete) → For adding/removing cars dynamicall
 Counter Variable (count) → Tracks current number of cars to ensure capacity is not exceeded
 
 
-# ▶️How to Run
+# How to Run
 
 1. Clone the repository
 
